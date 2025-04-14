@@ -131,7 +131,7 @@ Save the console to your desktop for easy access.
 
 ### 15. Create Organizational Units (OUs) and Users
 
-Create different pseudo-departments using Organizational Units (OUs). Within each department, create 2 users as follows:
+Create different pseudo-departments using Organizational Units (OUs). Within each department, create 2 users.
 # Example command to create an OU and users:
 samba-tool ou create "OU=Sales,DC=nosanet,DC=com"
 samba-tool user create user1 Sales
